@@ -7,9 +7,9 @@ const Contact = ({ setShowpopup }) => {
   const dets = [{
     icon: <MdCall className='m-4 text-lime-600' />,
     title: 'phone number',
-    info: <>+91-9075321765 <br />+91-9764004271</>,
+    info: <>+91-9075321764 <br />+91-9764004271</>,
     onclick: () => {
-      window.location.href = 'tel:+919075321765';
+      window.location.href = 'tel:+919075321764';
     }
   }, {
     icon: <MdLocalPostOffice className='m-4 text-lime-600 ' />,
