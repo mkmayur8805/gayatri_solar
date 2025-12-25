@@ -17,7 +17,6 @@ const Projects = () => {
         id="Projects"
         className="bg-white p-8"
       >
-        <title>Our Projects - Gayatri Solar</title>
         <h2 className="text-lime-600 mb-5 text-3xl lg:text-5xl">
           Our Projects
         </h2>

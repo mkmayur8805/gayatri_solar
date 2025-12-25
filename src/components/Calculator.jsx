@@ -12,7 +12,6 @@ export default function EnergyCalculator() {
 
     return (
         <div id="Calculator" className="p-8 flex justify-between flex-col lg:flex-row gap-6 bg-white ">
-            <title>Energy Calculator - Gayatri Solar</title>
 
             {/* Left Section */}
             <div>

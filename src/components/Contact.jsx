@@ -29,7 +29,6 @@ const Contact = ({ setShowpopup }) => {
   }]
   return (
     <div className='bg-white p-8 '>
-      <title>Contact Now - Gayatri Solar</title>
       <h1 className="text-lime-600 mb-5 lg:text-5xl text-3xl">Contact Now</h1>
       <div id='Contact' className="lg:flex lg:flex-row" >
         <div >
