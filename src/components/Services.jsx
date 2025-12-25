@@ -28,6 +28,15 @@ const Services = () => {
       photo: "https://5.imimg.com/data5/SELLER/Default/2021/10/RB/OF/MS/138865819/agriculture-solar-water-pump-1000x1000.png",
       title: "Agreicultural Solar",
       desc: "Durable agricultural solar solutions designed to power irrigation systems, farm equipment, and remote operations, enhancing energy independence, reducing costs, and promoting sustainable farming practices."
+    },
+    {
+      photo: "https://media.licdn.com/dms/image/v2/D4D12AQHHHGCd7Vdl6w/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1676445878528?e=2147483647&v=beta&t=w93r3eIJpTuzdbjLTl5Q0LuuJzNkZlIpuQUEhQr3HGU",
+      title: "Solar Lamps",
+      desc: "Energy-efficient solar lamps providing sustainable outdoor lighting solutions that reduce electricity costs, enhance safety, and promote eco-friendly practices for residential and commercial spaces."
+    },{
+      photo: "https://agnisolar.com/wp-content/uploads/2025/02/Auxilary-Image.png",
+      title: "Water Solar",
+      desc: "Innovative solar water heating systems designed to provide efficient, cost-effective hot water solutions while reducing energy consumption and promoting sustainable living."
     }
   ];
 
