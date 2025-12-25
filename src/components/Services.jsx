@@ -42,6 +42,7 @@ const Services = () => {
 
   return (
     <div id="Services" className="bg-white p-8 ">
+      <title>Our Services - Gayatri Solar</title>
       <h1 className="text-lime-600 mb-5 lg:text-5xl text-3xl">
         Our Services
       </h1>

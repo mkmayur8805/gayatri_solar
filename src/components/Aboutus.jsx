@@ -2,6 +2,7 @@ import imgs from '../assets/about/img1.jpg';
 const Aboutus = () => {
   return (
     <div id="About" className=' bg-white lg:-mb-24 h-screen p-8 items-center justify-center' >
+      <title>About Us - Gayatri Solar</title>
       <h1 className="text-lime-600 lg:mt-14 mb-5 lg:text-5xl text-3xl">About Us</h1>
       <div className="lg:flex">
         <div style={{backgroundImage:`url(${imgs})`}} className="hover:scale-[1.015] duration-300 lg:w-screen lg:h-[50vh] h-[50vh] rounded bg-cover bg-center flex items-center justify-center shadow-2xl shadow-lime-950 md:bg-top md:h-[70vh] ">
