@@ -17,7 +17,7 @@ const Footer = () => {
     ];
     return (
         <div className='bg-lime-600 text-white py-10'>
-            <div className='lg:flex lg:items-center lg:justify-center lg:flex-row-reverse'>
+            <div className='flex-col flex items-start justify-center lg:flex-row-reverse'>
                 <div className='flex flex-col lg:flex-row text-white'>
                     <div className="flex">
                         <div onClick={() => {
