@@ -42,7 +42,7 @@ const Services = () => {
   ];
 
   return (
-    <div id="Services" className="bg-white p-8 ">
+    <div id="Services" className="bg-white p-8"> 
       <SEO title="Gayatri Solar" description="Explore our range of solar services including Residential, Commercial, Industrial, Agricultural Solar, Solar Lamps, and Water Solar solutions designed to meet your energy needs sustainably." />
       <h1 className="text-lime-600 mb-5 lg:text-5xl text-3xl">
         Our Services
@@ -66,7 +66,7 @@ const Services = () => {
       >
         {services.map((service, idx) => (
           <SwiperSlide key={idx}>
-            <div className="p-2 rounded bg-white border border-lime-500/50 h-[65vh] lg:h-[83vh] ">
+            <div className="p-2 rounded bg-white border border-lime-500/50 h-full lg:h-[83vh] ">
               
               <div
                 className="h-[35vh] md:h-[40vh] rounded bg-cover bg-center"
