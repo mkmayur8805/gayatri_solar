@@ -36,9 +36,9 @@ const Contact = ({ setShowpopup }) => {
         <div >
           <div className=' grid grid-cols-2 gap-1 lg:gap-4 lg:pr-8 lg:h-full '>
             {dets.map((det, index) => (
-              <div onClick={det.onclick} className='p-2 lg:h-full rounded bg-lime-50/20 flex flex-col justify-center items-center shadow-xl shadow-lime-950/25 hover:scale-[102%] duration-300' key={index}>
-                <h2 className='lg:text-6xl text-4xl'>{det.icon}</h2>
-                <h3 className='capitalize text-xl lg:text-2xl py-2 font-semibold'>{det.title}</h3>
+              <div onClick={det.onclick} className='p-2 lg:h-full rounded bg-lime-50/20 flex flex-col justify-center items-center shadow-xl shadow-lime-950/25 hover:scale-[102%] duration-300 text-center' key={index}>
+                <h2 className='lg:text-6xl text-3xl'>{det.icon}</h2>
+                <h3 className='capitalize text-lg lg:text-2xl py-2 font-semibold'>{det.title}</h3>
                 <p className='text-center capitalize'>{det.info}</p>
               </div>
             ))}

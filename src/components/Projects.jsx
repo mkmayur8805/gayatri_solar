@@ -22,7 +22,7 @@ const Projects = () => {
         <h2 className="text-lime-600 mb-5 text-3xl lg:text-5xl">
           Our Projects
         </h2>
-        <p className="text-lime-900 lg:mt-0 mt-12 lg:text-xl text-lg">
+        <p className="text-lime-900 lg:mt-0 mt-4 lg:text-xl text-lg">
           Our Projects section highlights a diverse range of successfully
           completed solar installations across residential, commercial,
           industrial, and agricultural sectors. Each project reflects our

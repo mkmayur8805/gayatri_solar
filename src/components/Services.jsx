@@ -42,9 +42,9 @@ const Services = () => {
   ];
 
   return (
-    <div id="Services" className="bg-white p-8"> 
+    <div id="Services" className="bg-white py-2 px-8"> 
       <SEO title="Gayatri Solar" description="Explore our range of solar services including Residential, Commercial, Industrial, Agricultural Solar, Solar Lamps, and Water Solar solutions designed to meet your energy needs sustainably." />
-      <h1 className="text-lime-600 mb-5 lg:text-5xl text-3xl">
+      <h1 className="text-lime-600 my-5 lg:text-5xl text-3xl">
         Our Services
       </h1>
 
