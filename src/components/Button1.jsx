@@ -9,7 +9,8 @@ function Button1({ text, onClick, className = "" }) {
         relative z-0 inline-block overflow-hidden rounded-full
         border-2 border-lime-900
         bg-lime-500
-        px-8 py-3
+        lg:px-8 lg:py-3
+        px-1 py-1
         text-base font-semibold text-lime-950
         transition-all duration-200 ease-in-out
 
@@ -30,8 +31,8 @@ function Button1({ text, onClick, className = "" }) {
         hover:after:translate-x-0
         hover:after:rotate-0
 
-        max-md:px-6 max-md:py-2.5
-        ${className}
+        max-md:px-3 max-md:py-1.5
+                ${className}
       `}
     >
       {text}

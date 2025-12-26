@@ -45,7 +45,7 @@ const Contact = ({ setShowpopup }) => {
 
           </div>
         </div>
-        <Form setShowpopup={setShowpopup} className="my-16 lg:my-0" />
+        <Form setShowpopup={setShowpopup} className="my-8 lg:my-0" />
       </div>
     </div>
   )
