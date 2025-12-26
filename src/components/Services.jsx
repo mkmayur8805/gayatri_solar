@@ -66,7 +66,7 @@ const Services = () => {
       >
         {services.map((service, idx) => (
           <SwiperSlide key={idx}>
-            <div className="p-2 rounded bg-white border border-lime-500/50 h-full lg:h-[83vh] ">
+            <div className="p-2 rounded bg-white border my-1 border-lime-500/50 h-full lg:h-[83vh] ">
               
               <div
                 className="h-[35vh] md:h-[40vh] rounded bg-cover bg-center"

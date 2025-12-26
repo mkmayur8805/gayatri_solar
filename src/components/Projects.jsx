@@ -42,7 +42,7 @@ const Projects = () => {
           }}
           navigation={true}
           modules={[Autoplay, Pagination, Navigation]}
-          className="mySwiper rounded my-8"
+          className="mySwiper rounded mt-8"
           breakpoints={{
             0: { slidesPerView: 1 },
             768: { slidesPerView: 2 },

@@ -11,7 +11,7 @@ const Hero = ({ menu, heroRef, isOpen, setIsOpen }) => {
     <div
       id="Home"
       ref={heroRef}
-      className="hero-bg relative  min-h-screen bg-cover bg-right"
+      className="hero-bg relative  h-screen bg-cover bg-right"
       style={{
         backgroundImage: `url("https://images.unsplash.com/photo-1705579606211-88640600fcdd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c29sYXIlMjBwYW5lbCUyMHdvcmtlcnxlbnwwfDF8MHx8fDI%3D")`
       }}
