@@ -11,8 +11,6 @@ const HeroLeft = () => {
   };
   return (
     <div className='flex justify-center lg:justify-center items-start lg:items-center mt-16 lg:-mt-16 flex-col w-full lg:min-h-screen min-h-[70vh] pr-2 '>
-      
-        <h3 className='text-lime-600 uppercase text-xl lg:text-2xl font-semibold'>welcome to Gayatri Solar</h3>
         <h3 className='text-lime-600 uppercase text-xl lg:text-2xl font-semibold'>welcome to Gayatri Solar</h3>
         <h2 className='text-4xl lg:text-7xl font-bold'>Lighting Lives with</h2>
         <h2 className='text-4xl lg:mt-2 lg:text-7xl text-nowrap font-bold text-lime-600'>Smart Solar Solutions</h2>
