@@ -23,7 +23,7 @@ const Navbar = ({ menu, isOpen, setIsOpen }) => {
     <>
       <div className="bg-white flex justify-between items-center text-black px-4 py-1 lg:py-0 lg:px-8 font-bold relative">
         <div className="flex justify-center items-center">
-          <img className="w-52 lg:w-72" src={logo} alt="Gayatri Solar Logo" />
+          <img className="w-48 lg:w-72" src={logo} alt="Gayatri Solar Logo" />
         </div>
         <ul className="hidden lg:flex gap-8 text-base font-semibold px-12">
             {menu.map((item) => (

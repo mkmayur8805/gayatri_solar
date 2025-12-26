@@ -18,23 +18,25 @@ const Footer = () => {
     return (
         <div className='bg-lime-600 text-white py-10'>
             <div className='lg:flex lg:items-center lg:justify-center lg:flex-row-reverse'>
-                <div className='flex text-white'>
-                    <div onClick={() => {
+                <div className='flex flex-col lg:flex-row text-white'>
+                    <div className="flex">
+                        <div onClick={() => {
                         window.location.href = "tel:+919075321764";
-                    }} className=" text-lg mb-2 ml-8 cursor-pointer flex items-center gap-2 uppercase">
+                    }} className=" text-base mb-2 ml-8 cursor-pointer flex items-center gap-2 uppercase">
                         <MdCallEnd className='text-white' />
                         +91-9075321764
                     </div>
                     <div onClick={() => {
                         window.location.href = "tel:+919764004271";
-                    }} className="text-lg mb-2 ml-8 cursor-pointer flex items-center gap-2 uppercase">
+                    }} className="text-base mb-2 ml-8 cursor-pointer flex items-center gap-2 uppercase">
                         <MdCallEnd className='text-white' />
                         +91-9764004271
+                    </div>
                     </div>
                 </div>
                 <h1 onClick={() => {
                     window.location.href = "mailto:gayatrienergynsk@gmail.com";
-                }} className=" text-xl mb-2 ml-8 cursor-pointer flex items-center gap-2 uppercase" >
+                }} className=" text-lg mb-2 ml-8 cursor-pointer flex items-center gap-2 uppercase" >
                     <HiMail className='text-white' />
                     gayatrienergynsk@gmail.com </h1>
             </div>

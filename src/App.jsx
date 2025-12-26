@@ -38,7 +38,6 @@ function App() {
       
       <Hero menu={menu} heroRef={heroRef} isOpen={isOpen} setIsOpen={setIsOpen} />
       <Aboutus />
-      <Partners />
       <Services />
       {isOpen ? "" : <Wp />}
       <FloatingMenu show={showMenu} isOpen={isOpen} setIsOpen={setIsOpen} />

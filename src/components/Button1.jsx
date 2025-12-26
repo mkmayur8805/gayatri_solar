@@ -3,6 +3,7 @@ function Button1({ text, onClick, className = "" }) {
     <button
       onClick={onClick}
       className={` 
+        text-nowrap
         active:scale-105 
         lg:active:scale-100
         relative z-0 inline-block overflow-hidden rounded-full
