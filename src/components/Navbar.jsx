@@ -49,8 +49,8 @@ const Navbar = ({ menu, isOpen, setIsOpen }) => {
           }}/>
             <p>+91-9075321764</p>
           </div>
-          <div className=" hover:text-lime-600 flex items-center gap-1 text-sm">
-            <IoLocationSharp className="inline" />
+          <div className=" hover:text-lime-600 flex items-center gap-1 text-[15px]">
+            <IoLocationSharp className="inline text-red-600 " />
             <p>Nashik, Maharashtra</p>
           </div>
         </div>
