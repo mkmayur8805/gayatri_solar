@@ -3,7 +3,7 @@ import Button1 from "./Button1";
 import { TbMenuDeep } from "react-icons/tb";
 import Smenu from "./Smenu";
 import logo from "../assets/logo.png";
-import logosm from "../assets/fevicon.ico";
+import logosm from "../assets/favicon.png";
 import { IoLocationSharp } from "react-icons/io5";
 import { MdLocalPhone } from "react-icons/md";
 
