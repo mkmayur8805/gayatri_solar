@@ -54,7 +54,7 @@ const Footer = () => {
                 <h3 className="hidden lg:block">Copyright © 2026 Gayatri Solar. All Rights Reserved.</h3>
                 <h3 className=" lg:hidden ">Copyright © 2026 Gayatri Solar. <br /> All Rights Reserved.</h3>
                     <h3> 
-                        <a href="https://api.whatsapp.com/send/?phone=917448046577&text&type=phone_number&app_absent=0">Designed by Mayur Kumawat.</a>
+                        <a href="https://api.whatsapp.com/send/?phone=917448046577&text&type=phone_number&app_absent=0">Code by Mayur Kumawat.</a>
                     </h3>
             </div>
             <div className='hidden lg:flex gap-5 pr-5 lg:justify-end lg:pt-2'>
