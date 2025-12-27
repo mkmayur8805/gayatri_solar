@@ -42,14 +42,14 @@ const Navbar = ({ menu, isOpen, setIsOpen }) => {
 
         </ul>
         <div className="cursor-pointer text-lime-900">
-          <div className=" hover:text-lime-600 flex items-center gap-1 text-lg">
+          <div className=" hover:text-lime-600 flex items-center gap-1 text-sm lg:text-lg">
             <MdLocalPhone className="inline" 
             onClick={() => {
             window.location.href = "tel:+919075321764";
           }}/>
             <p>+91-9075321764</p>
           </div>
-          <div className=" hover:text-lime-600 flex items-center gap-1 text-[15px]">
+          <div className=" hover:text-lime-600 flex items-center gap-1 text-sm lg:text-lg">
             <IoLocationSharp className="inline text-red-600 " />
             <p>Nashik, Maharashtra</p>
           </div>
