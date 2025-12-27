@@ -1,4 +1,4 @@
-import {useEffect } from "react";
+import { useEffect } from "react";
 import Button1 from "./Button1";
 import { TbMenuDeep } from "react-icons/tb";
 import Smenu from "./Smenu";
@@ -41,15 +41,15 @@ const Navbar = ({ menu, isOpen, setIsOpen }) => {
           ))}
 
         </ul>
-        <div className="cursor-pointer text-lime-900">
-          <div className=" hover:text-lime-600 flex items-center gap-1 text-sm lg:text-lg">
-            <MdLocalPhone className="inline" 
-            onClick={() => {
-            window.location.href = "tel:+919075321764";
-          }}/>
+        <div className="cursor-pointer text-lime-900 text-nowrap">
+          <div className=" hover:text-lime-600 flex items-center gap-1 text-[4vw] lg:text-lg">
+            <MdLocalPhone className="inline"
+              onClick={() => {
+                window.location.href = "tel:+919075321764";
+              }} />
             <p>+91-9075321764</p>
           </div>
-          <div className=" hover:text-lime-600 flex items-center gap-1 text-sm lg:text-lg">
+          <div className=" hover:text-lime-600 flex items-center gap-1 text-[3.3vw] lg:text-[0.95rem]">
             <IoLocationSharp className="inline text-red-600 " />
             <p>Nashik, Maharashtra</p>
           </div>
