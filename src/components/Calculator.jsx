@@ -80,7 +80,7 @@ export default function EnergyCalculator() {
                         Payback Period
                     </p>
                     <p className="mt-1 text-sm sm:text-lg font-bold">
-                        {isNaN(paybackMonths) ? "0" : paybackMonths} Years
+                        {isNaN(paybackMonths) ? "0" : "3-5"} Years
                     </p>
                 </div>
 
