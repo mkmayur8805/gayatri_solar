@@ -35,7 +35,7 @@ function App() {
   }, []);
 
   return (
-    <div className='livvic font-extrabold overflow-x-hidden scroll-smooth'>
+    <div className='overflow-x-hidden scroll-smooth'>
       <Navbar menu={menu} isOpen={isOpen} setIsOpen={setIsOpen} className={"hidden z-50 w-full fixed lg:block"} />
       <Hero menu={menu} heroRef={heroRef} isOpen={isOpen} setIsOpen={setIsOpen} />
       <Aboutus />
