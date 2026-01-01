@@ -70,7 +70,6 @@ const CallPopup = ({ setShowpopup, setShowcallpopup }) => {
                 <div className='flex flex-col'>
                     <label>Name</label>
                     <input
-                        placeholder='Sachin Suryawanshi'
                         className='h-10 pl-2 border border-lime-500 rounded focus:outline-none'
                         type="text"
                         value={form.name}
@@ -82,7 +81,6 @@ const CallPopup = ({ setShowpopup, setShowcallpopup }) => {
                 <div className='flex flex-col'>
                     <label>Phone</label>
                     <input
-                        placeholder='9075321764'
                         className='h-10 pl-2 border border-lime-500 rounded focus:outline-none'
                         type="tel"
                         maxLength="10"
