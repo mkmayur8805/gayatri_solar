@@ -11,11 +11,11 @@ import { MdCallEnd } from "react-icons/md";
 const Smenu = ({ menu, isOpen, setIsOpen }) => {
 
   const socials = [
-          { name: "facebook", Icon: FaFacebookF, color : "#1877F2" },
-          { name: "instagram", Icon: FaInstagram, color : "#E4405F" },
-          { name: "whatsapp", Icon: FaWhatsapp, color : "#25D366" },
-          { name: "youtube", Icon: FaYoutube, color : "#FF0000" },
-      ];
+    { name: "facebook", Icon: FaFacebookF, color: "#1877F2",link:"https://www.facebook.com/profile.php?id=61585281819822&sk=about_details" },
+    { name: "instagram", Icon: FaInstagram, color: "#E4405F",link:"https://www.instagram.com/gayatrienergynsk/" },
+    { name: "whatsapp", Icon: FaWhatsapp, color: "#25D366", link:'https://wa.me/919075321764' },
+    { name: "youtube", Icon: FaYoutube, color: "#FF0000", link:"https://www.youtube.com/@solarenergynsk" },
+  ];
 
   const handleclose = () => {
     setIsOpen(false);
@@ -57,9 +57,9 @@ const Smenu = ({ menu, isOpen, setIsOpen }) => {
             </div>
 
             <div className="flex gap-5 ml-8 mb-20">
-              {socials.map(({ name, Icon, color }) => (
+              {socials.map(({ name, Icon, color, link }) => (
                 <div
-                  key={name}
+                  key={name} onClick={()=>(window.open(link , "_blank"))}
                   className="p-1 text-3xl lg:text-2xl rounded-sm cursor-pointer transition bg-gray-200"
                 >
                   <Icon color={color} />
