@@ -10,11 +10,11 @@ import {
 
 const Footer = () => {
     const socials = [
-        { name: "facebook", Icon: FaFacebookF, color : "#1877F2" },
-        { name: "instagram", Icon: FaInstagram, color : "#E4405F" },
-        { name: "whatsapp", Icon: FaWhatsapp, color : "#25D366" },
-        { name: "youtube", Icon: FaYoutube, color : "#FF0000" },
-    ];
+    { name: "facebook", Icon: FaFacebookF, color: "#1877F2",link:"https://www.facebook.com/profile.php?id=61585281819822&sk=about_details" },
+    { name: "instagram", Icon: FaInstagram, color: "#E4405F",link:"https://www.instagram.com/gayatrienergynsk/" },
+    { name: "whatsapp", Icon: FaWhatsapp, color: "#25D366", link:'https://wa.me/919075321764' },
+    { name: "youtube", Icon: FaYoutube, color: "#FF0000", link:"https://www.youtube.com/@solarenergynsk" },
+  ];
     return (
         <div className='bg-lime-600 text-white py-8 text-center'>
             <div className='flex-col flex items-start justify-center lg:flex-row-reverse'>
@@ -41,9 +41,9 @@ const Footer = () => {
                     gayatrienergynsk@gmail.com </h1>
             </div>
             <div className='flex justify-around py-2 lg:hidden'>
-                {socials.map(({ name, Icon, color }) => (
+                {socials.map(({ name, Icon, color, link }) => (
                     <div
-                        key={name}
+                        key={name} onClick={()=>(window.open(link, '_blank'))}
                         className="p-1 text-3xl rounded-sm cursor-pointer transition bg-gray-200"
                     >
                         <Icon color={color}  />
@@ -58,9 +58,9 @@ const Footer = () => {
                     </h3>
             </div>
             <div className='hidden lg:flex gap-5 pr-5 lg:justify-end lg:pt-2'>
-                {socials.map(({ name, Icon, color }) => (
+                {socials.map(({ name, Icon, color, link }) => (
                     <div
-                        key={name}
+                        key={name} onClick={()=>(window.open(link, '_blank'))}
                         className="p-1 text-3xl rounded-sm cursor-pointer transition bg-gray-200 hover:scale-[105%] duration-300"
                     >
                         <Icon color={color} />
