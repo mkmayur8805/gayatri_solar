@@ -13,6 +13,7 @@ import Calculator from './components/Calculator'
 import SubmitPopup from './components/SubmitPopup'
 import Navbar from './components/Navbar'
 import CallPopup from './components/CallPopup'
+import Corsor from './components/Corsor'
 
 function App() {
   const menu = ["Home", "About", "Services", "Projects", "Calculator", "Contact"];
@@ -51,7 +52,8 @@ function App() {
   }, [])
 
   return (
-    <div className='overflow-x-hidden scroll-smooth'>
+    <div className='overflow-x-hidden scroll-smooth cursor-default select-none'>
+      <Corsor />
       <Navbar menu={menu} isOpen={isOpen} setIsOpen={setIsOpen} className={"hidden z-50 w-full fixed lg:block"} />
       <Hero menu={menu} heroRef={heroRef} isOpen={isOpen} setIsOpen={setIsOpen} />
       <Aboutus />
