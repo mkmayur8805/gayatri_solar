@@ -21,8 +21,8 @@ const Footer = ({ menu }) => {
             <div className="flex flex-col lg:flex-row lg:justify-between gap-10 lg:gap-0">
                 <div className="p-8 w-full">
                     <div>
-                        <h1 className="text-(--bg) hover:text-(--primary-color) transition-colors duration-300 text-4xl lg:text-5xl font-semibold letter-spacing leading-tight relative mb-5">
-                            Gaytri Solar
+                        <h1 className="uppercase text-(--bg) hover:text-(--primary-color) transition-colors duration-300 text-4xl lg:text-5xl font-semibold letter-spacing leading-tight relative mb-5">
+                            Gayatri Solar
                             <span className="text-lg text-zinc-400 absolute left-0 -bottom-6 font-medium">
                                 Energy
                             </span>
