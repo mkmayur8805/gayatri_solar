@@ -43,7 +43,7 @@ const Footer = ({ menu }) => {
 
                     <div className="flex gap-4 mb-2 w-full">
                         <MdLocationCity className="text-(--primary-color) text-2xl" />
-                        <a href="https://maps.app.goo.gl/2e4cigGiGZEDdXDJ6" target="_blank" rel="noopener noreferrer" className="text-(--gray-2) text-wrap uppercase hover:text-(--primary-color) w-full">
+                        <a href="https://maps.app.goo.gl/GE4X6eeBfmTVKGEv5" target="_blank" rel="noopener noreferrer" className="text-(--gray-2) text-wrap uppercase hover:text-(--primary-color) w-full">
                             13, 4th floor, Pratham Apartment, Rajiv Nagar, Nashik-422009
                         </a>
                     </div>
