@@ -22,7 +22,7 @@ const Contact = ({ setShowpopup }) => {
   }, {
     icon: <HiMiniBuildingOffice className='m-4 text-(--primary-color)' />,
     title: 'Office address',
-    info: <span>2, vaibhav apartment, near swami samarth kendra, rajiv nagar, nashik-422009</span>
+    info: <span>13, 4th floor, Pratham Apartment, Rajiv Nagar, Nashik-422009</span>
   }, {
     icon: <HiOfficeBuilding className='m-4 text-(--primary-color)' />,
     title: 'Office 2 address',
